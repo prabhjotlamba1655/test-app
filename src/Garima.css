@@ -1,13 +1,7 @@
-body{
+.name__resume__Garima{
   background-color: #f4e1d2;
 }
-@media (min-width: 800px) {
-  .sec{
-    display:flex;
-    flex-direction: row;
-  }
-  }
-.name__contact{
+.name__contact__Garima{
   border: 5px solid;
   border-color: black;
   margin: 10px;
@@ -16,7 +10,7 @@ body{
   border-color: black;
   padding: 20px;
   }
-  .name__skills{
+  .name__skills__Garima{
     flex:2.5;
     background-image: linear-gradient(to right,#eca1a6, #e3eaa7);
     margin: 10px;
@@ -24,15 +18,22 @@ body{
     border-color: black;
     padding: 20px;
   }
-  .name__img{
+  .name__img__Garima{
     flex:1;
     margin: 10px;
     padding : 50px;
   }
 
-img{
-    border-radius: 50%;
+  .name__img__Garima > img{
+  border-radius: 50%;
    flex: 1;
    height:400px;
    border: 3px solid black;
 }
+
+@media (min-width: 800px) {
+  .sec{
+    display:flex;
+    flex-direction: row;
+  }
+  }

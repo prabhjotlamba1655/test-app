@@ -1,12 +1,12 @@
 import React from 'react';
-import Garima from './Media/Garima.jpeg'
+import img from './Media/Garima.jpeg'
 import './Garima.css';
 
 // use this file as basic layout and name of classes of your css
-function MyResume() {
+function Garima() {
     return (
-        <div className="name__resume">
-            <div className="name__contact">
+        <div className="name__resume__Garima">
+            <div className="name__contact__Garima">
                 <h1><strong>GARIMA</strong></h1>
                 <h3>2nd year COE student in NSUT</h3>
                 <h3>Email Id : vatsgarima11@gmail.com</h3>
@@ -19,8 +19,8 @@ function MyResume() {
                 </a>
 
             </div>
-            <section className="sec">
-                <div className="name__skills">
+            <section className="sec__Garima">
+                <div className="name__skills__Garima">
                     <h3>SKILLS: Data structures and algorithms</h3>
                     <h3>LANGUAGES: C++,C,Basics of Python</h3>
                     <h1>Education:</h1>
@@ -34,8 +34,8 @@ function MyResume() {
 
 
                 </div>
-                <div className="name__img">
-                    <img src={Garima} alt="Profile Photo" />
+                <div className="name__img__Garima">
+                    <img src={img} alt="Profile Photo" />
 
                 </div>
             </section>
@@ -43,4 +43,4 @@ function MyResume() {
     );
 }
 
-export default MyResume;
+export default Garima;
